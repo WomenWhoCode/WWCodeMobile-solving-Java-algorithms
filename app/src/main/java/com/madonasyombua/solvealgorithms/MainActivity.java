@@ -36,10 +36,12 @@ public class MainActivity extends AppCompatActivity {
 
 
         buttonReverse.setOnClickListener(view -> ReverseString());
-        clearButton.setOnClickListener( view -> reverseEdittext.getText().clear()
 
-        );
-
+        //clearing the textView and EditText
+        clearButton.setOnClickListener(view -> {
+            reverseEdittext.getText().clear();
+            reverseTextView.setText(" ");
+        });
 
 
     }
@@ -49,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
 
         return string.myStringFunction(str);
     }
-
 
     private void ReverseString(){
 
@@ -68,9 +69,8 @@ public class MainActivity extends AppCompatActivity {
             return results.toString();
         };
 
-
+        //appending the reversed String to the text view;
         reverseTextView.append(reverseString(reverse, String.valueOf(reverseEdittext.getText())));
-
 
     }
 

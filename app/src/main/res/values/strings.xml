@@ -3,5 +3,6 @@
     <string name="enter_string">Enter String</string>
     <string name="button">Submit Button</string>
     <string name="textview">TextView</string>
-    <string name="clear_button">Clear Button</string>
+    <string name="clear_button">Clear Texts</string>
+    <string name="intro">Solving Java Algorithms for Android</string>
 </resources>
