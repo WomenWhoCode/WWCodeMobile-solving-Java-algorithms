@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
         reverseTextView.append(reverseString(reverse, String.valueOf(reverseEdittext.getText())));
 
-        reverseTextView.setText(" ");
+
     }
 
     interface myString{
