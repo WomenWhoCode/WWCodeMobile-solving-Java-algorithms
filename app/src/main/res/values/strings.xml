@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Solve Algorithms</string>
+    <string name="enter_string">Enter String</string>
+    <string name="button">Submit Button</string>
+    <string name="textview">TextView</string>
+    <string name="clear_button">Clear Button</string>
 </resources>
