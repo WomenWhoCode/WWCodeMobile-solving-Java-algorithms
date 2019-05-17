@@ -2,7 +2,6 @@ package com.madonasyombua.solvealgorithms;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -13,7 +12,7 @@ import butterknife.ButterKnife;
 public class MainActivity extends AppCompatActivity {
 
 
-    @BindView(R.id.reverse_edittext)
+    @BindView(R.id.reverse_edit_text)
     EditText reverseEdittext;
 
     @BindView(R.id.reverse)
@@ -52,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
         return string.myStringFunction(str);
     }
 
+    //Reverse string
     private void ReverseString(){
 
         myString reverse = (String str)->{

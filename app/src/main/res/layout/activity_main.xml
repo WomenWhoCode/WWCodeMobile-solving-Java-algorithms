@@ -8,7 +8,7 @@
 
     <!-- edit text used to reverse String-->
     <EditText
-        android:id="@+id/reverse_edittext"
+        android:id="@+id/reverse_edit_text"
         android:layout_width="306dp"
         android:layout_height="47dp"
         android:layout_marginStart="16dp"
@@ -32,7 +32,7 @@
         android:fontFamily="monospace"
         android:text="@string/button"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/reverse_edittext" />
+        app:layout_constraintTop_toBottomOf="@+id/reverse_edit_text" />
 
     <!-- reverse text view -->
     <TextView
@@ -42,6 +42,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="40dp"
         android:fontFamily="monospace"
+        android:textSize="16sp"
         android:textColor="@color/colorAccent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reverse" />
