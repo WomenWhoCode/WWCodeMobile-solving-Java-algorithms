@@ -9,6 +9,10 @@ import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ *
+ * @author madona
+ */
 public class MainActivity extends AppCompatActivity {
 
 
