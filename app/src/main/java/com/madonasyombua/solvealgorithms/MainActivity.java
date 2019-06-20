@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
     Button clearButton;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,21 +49,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    static String reverseString(myString string, String str){
+    static String reverseString(myString string, String str) {
 
         return string.myStringFunction(str);
     }
 
     //Reverse string
-    private void ReverseString(){
+    private void ReverseString() {
 
-        myString reverse = (String str)->{
+        myString reverse = (String str) -> {
 
             int n = str.length() - 1;
 
             StringBuilder results = new StringBuilder();
 
-            for(int i = n; i >= 0; i--){
+            for (int i = n; i >= 0; i--) {
 
                 results.append(str.charAt(i));
 
@@ -78,9 +77,30 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    interface myString{
+    interface myString {
 
         String myStringFunction(String str);
     }
 
+
+    //Reverse string
+    private void ReverseString1() {
+
+        myString reverse = (String str) -> {
+
+            int n = str.length() - 1;
+
+            StringBuilder results = new StringBuilder();
+
+            for (int i = n; i >= 0; i--) {
+
+                results.append(str.charAt(i));
+
+            }
+
+            return results.toString();
+        };
+
+    }
 }
+
