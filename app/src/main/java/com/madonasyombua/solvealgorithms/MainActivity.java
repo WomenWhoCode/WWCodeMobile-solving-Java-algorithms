@@ -11,7 +11,7 @@ import butterknife.ButterKnife;
 
 /**
  *
- * @author madona syombua
+ *
  */
 public class MainActivity extends AppCompatActivity {
 
