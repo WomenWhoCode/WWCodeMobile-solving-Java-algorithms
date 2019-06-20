@@ -12,6 +12,7 @@ import butterknife.ButterKnife;
 /**
  *
  *
+ * @author madona
  */
 public class MainActivity extends AppCompatActivity {
 
@@ -83,24 +84,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
     //Reverse string
-    private void ReverseString1() {
 
-        myString reverse = (String str) -> {
-
-            int n = str.length() - 1;
-
-            StringBuilder results = new StringBuilder();
-
-            for (int i = n; i >= 0; i--) {
-
-                results.append(str.charAt(i));
-
-            }
-
-            return results.toString();
-        };
-
-    }
 }
+
 
