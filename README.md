@@ -16,6 +16,8 @@ Do you have any additional questions for our awesome speaker? Find Madona on Twi
 ## Slides
 [Get Slides here](https://slides.com/madona/deck-1#/)
 
+### Women Who Code
+
 > WWCode is an inclusive community, dedicated to providing an empowering experience for everyone who participates in or supports our community, regardless of gender, gender identity and expression, sexual orientation, ability, physical appearance, body size, race, ethnicity, age, religion, socioeconomic status, caste, creed, political affiliation, or preferred programming language(s). Our events are intended to inspire women to excel in technology careers, and anyone who is there for this purpose is welcome.
 > 
 > To read more about WWCode and the Code of Conduct for events, please check out [Conduct](https://www.womenwhocode.com/codeofconduct)
